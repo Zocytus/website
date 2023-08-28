@@ -435,16 +435,13 @@ img {
 .button-next {
     display: none;
 }
-.button,
-.button__ghost {
+.button {
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 0.5rem;
 }
-.button__ghost i {
-    color: var(--black-color);
-}
+
 .button {
     background-color: var(--black-color);
     padding: 1.1rem 1.5rem;
@@ -458,17 +455,7 @@ img {
 .button:hover {
     background-color: var(--first-color);
 }
-.button__ghost {
-    border: 3px solid var(--black-color);
-    padding: 0.5rem;
-    transition: border 0.4s, color 0.4s;
-}
-.button__ghost i {
-    font-size: 1.25rem;
-}
-.button__ghost:hover {
-    border: 3px solid var(--first-color);
-}
+
 /*=============== ABOUT ===============*/
 .about {
     background-color: var(--container-color);
@@ -1160,12 +1147,7 @@ img {
     .about__buttons {
         justify-content: inherit;
     }
-    .button__ghost {
-        padding: 0.75rem;
-    }
-    .button__ghost i {
-        font-size: 1.5rem;
-    }
+
     .services__container {
         grid-template-columns: repeat(3, 282px);
         column-gap: 5rem;
@@ -1241,7 +1223,7 @@ img {
         height: 11rem;
     }
     .contact__button {
-        color: var(--first-color);
+        color: var(--white-color);
     }
     .contact__data {
         width: 392px;
