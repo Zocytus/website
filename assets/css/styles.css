@@ -555,6 +555,40 @@ img {
 .services__card {
     position: relative;
 }
+.services__card:hover .services__view {
+    display: inline-flex;
+}
+
+.services__view {
+    display: none;
+    z-index: 6;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    animation: show 0.5s;
+    top: 0;
+    overflow: hidden;
+}
+.services__view-link {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi-bold);
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 1.1rem 1.5rem;
+}
+
+@keyframes show {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: 100%;
+    }
+}
 .services__content {
     height: 100%;
     background-color: var(--body-color);
@@ -606,8 +640,8 @@ img {
 .cer__img {
     user-select: none;
     margin: auto;
-    width: 250px;
-    height: 180px;
+    width: 375px;
+    height: 270px;
 }
 /*=============== CONTACT ===============*/
 .contact {
