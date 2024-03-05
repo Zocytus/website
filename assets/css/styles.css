@@ -351,7 +351,7 @@ img {
     z-index: 10;
 }
 .home__social {
-    height: max-content;
+    height: 100px;
     position: absolute;
     left: -3rem;
     top: 0;
@@ -516,7 +516,7 @@ img {
     position: relative;
     color: var(--title-color);
     padding-bottom: 1.5rem;
-    width: 80%;
+    width: 100%;
 }
 .about__description::after {
     content: "";
@@ -530,7 +530,7 @@ img {
 .about__list {
     list-style: square;
     color: var(--title-color);
-    width: 80%;
+    width: 100%;
     margin-bottom: 3rem;
 }
 .about__buttons {
