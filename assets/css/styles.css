@@ -361,7 +361,7 @@ img {
     flex-direction: column;
     row-gap: 1rem;
 }
-/* .home__social-link {
+.home__social-link {
     background-color: var(--black-color-light);
     color: var(--white-color);
     font-size: 1.25rem;
@@ -372,7 +372,7 @@ img {
 }
 .home__social-link:hover {
     background-color: var(--black-color);
-} */
+}
 .home__info {
     margin-top: 4rem;
 }
