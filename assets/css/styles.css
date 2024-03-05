@@ -357,7 +357,8 @@ img {
     top: 10px;
     bottom: 10px;
     margin: auto 0;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     row-gap: 1rem;
 }
 .home__social-link {
